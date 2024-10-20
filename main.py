@@ -1,4 +1,4 @@
-from flask import Flask, abort, render_template, redirect, url_for, flash, request
+from flask import app, Flask, abort, render_template, redirect, url_for, flash, request
 from flask_bootstrap import Bootstrap5
 from flask_ckeditor import CKEditor
 from flask_login import UserMixin, login_user, LoginManager, current_user, logout_user
